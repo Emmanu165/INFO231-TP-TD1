@@ -12,7 +12,7 @@ int estTrie(int tab[N]) {
 }
 
 int main() {
-    int tab[N] = {1, 2, 3, 4, 5};
+    int tab[N];
 
     if (estTrie(tab)) {
         printf("Le tableau est trié.\n");

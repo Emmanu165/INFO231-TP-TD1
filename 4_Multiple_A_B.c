@@ -11,8 +11,8 @@ int produit(int a, int b) {
 }
 
 int main() {
-    int a = 3;
-    int b = 4;
+    int a;
+    int b;
 
     int resultat = produit(a, b);
 

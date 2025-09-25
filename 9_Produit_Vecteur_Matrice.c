@@ -39,8 +39,8 @@ void afficherResultat(int resultat[M]) {
 }
 
 int main() {
-    Vecteur v = {1, 2, 3};
-    int matrice[N][M] = {{4, 5, 6}, {7, 8, 9}, {10, 11, 12}};
+    Vecteur v;
+    int matrice[N][M];
     int resultat[M];
 
     printf("Vecteur : ");

@@ -12,8 +12,8 @@ int rechercheSequentielle(int tab[N], int element) {
 }
 
 int main() {
-    int tab[N] = {2, 5, 8, 12, 16, 23, 38, 56, 72, 91};
-    int element = 23;
+    int tab[N];
+    int element;
 
     int indice = rechercheSequentielle(tab, element);
 

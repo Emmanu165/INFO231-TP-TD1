@@ -25,8 +25,8 @@ void afficherMatrice(int A[N][P]) {
 }
 
 int main() {
-    int A[N][M] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
-    int B[M][P] = {{10, 11, 12}, {13, 14, 15}, {16, 17, 18}};
+    int A[N][M];
+    int B[M][P];
     int C[N][P];
 
     produitMatrices(A, B, C);

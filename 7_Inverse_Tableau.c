@@ -19,7 +19,7 @@ void afficherTableau(int tab[N]) {
 }
 
 int main() {
-    int tab[N] = {1, 2, 3, 4, 5};
+    int tab[N];
 
     printf("Tableau avant inversion : ");
     afficherTableau(tab);

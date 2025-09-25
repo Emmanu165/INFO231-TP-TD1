@@ -21,7 +21,7 @@ int trouverMedian(int tab[N]) {
 }
 
 int main() {
-    int tab[N] = {5, 2, 8, 1, 9};
+    int tab[N];
 
     printf("Médian du tableau : %d\n", trouverMedian(tab));
 

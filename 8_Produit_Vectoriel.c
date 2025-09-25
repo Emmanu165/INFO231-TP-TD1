@@ -17,8 +17,8 @@ void afficherVecteur(Vecteur v) {
 }
 
 int main() {
-    Vecteur v1 = {1, 2, 3};
-    Vecteur v2 = {4, 5, 6};
+    Vecteur v1;
+    Vecteur v2;
 
     Vecteur resultat = produitVectoriel(v1, v2);
 

@@ -21,8 +21,8 @@ void afficherMatrice(int A[N][M]) {
 }
 
 int main() {
-    int A[N][M] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
-    int B[N][M] = {{10, 11, 12}, {13, 14, 15}, {16, 17, 18}};
+    int A[N][M];
+    int B[N][M];
     int C[N][M];
 
     sommeMatrices(A, B, C);
